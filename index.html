@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Doces, Sobremesas, Confeitaria">
+    <title>Delícias Doces</title>
+    <meta name="description" content="Site dedicado às melhores delícias doces.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Seu Nome">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet">
+    <link rel="icon" href="img/icon-cupcake.jpg">
+
+    <style>
+        body {
+            background-color: #FFF8E7; /* Fundo de cor creme */
+            margin: 0;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .cabecalho {
+            background-color: #FFB6C1; /* Rosa claro */
+            padding: 20px 0;
+            position: relative;
+        }
+
+        .logo {
+            color: #8B0000; /* Vermelho escuro */
+            font-size: 28px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .menu-navegacao {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .menu-navegacao a {
+            color: #8B0000;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .menu-navegacao a:hover {
+            color: #FF69B4; /* Cor rosa forte para hover */
+        }
+
+        .banner {
+            position: relative;
+            padding: 50px 0;
+            background-color: #FFC0CB; /* Rosa claro */
+            text-align: center;
+        }
+
+        .banner .title h2 {
+            color: #8B0000;
+            font-size: 36px;
+        }
+
+        .banner .title h3 {
+            color: #6A5ACD; /* Roxo */
+            font-size: 24px;
+        }
+
+        .servicos {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px 0;
+        }
+
+        .servico {
+            width: 300px;
+            background: #FFF;
+            border: 2px solid #FFC0CB;
+            border-radius: 8px;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .servico img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .newsletter {
+            background: #FFB6C1;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        footer {
+            background: #FFC0CB;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   
+    <!-- CABEÇALHO -->
+    <header class="cabecalho container">
+        <h1 class="logo">Delícias Doces</h1>
+
+        <!-- MENU DE NAVEGAÇÃO -->
+        <div class="menu-navegacao">
+            <a href="quem-somos.html">Quem Somos</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="blog.html">Blog</a>
+            <a href="home.html">Home</a>
+        </div>
+    </header>
+
+    <!-- BANNER --> 
+    <div class="banner container">
+        <div class="title">
+            <h2>Bem-vindo ao Mundo dos Doces</h2>
+            <h3>Descubra sabores irresistíveis</h3>
+        </div>
+    </div>
+
+    <!-- SERVIÇOS --> 
+    <main class="servicos container" id="servicos">
+        <article class="servico">
+            <img src="https://s2-receitas.glbimg.com/EGfqP3XfM9ZJdy41TZ5lmt1PuFQ=/0x0:1200x675/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2024/O/o/065AkCSuqTkBzrKGGg5w/cupcake-rosa.jpg" alt="Cupcakes">
+            <h3>Cupcakes</h3>
+            <p>Deliciosos bolinhos decorados para adoçar o dia!</p>
+        </article>
+        <article class="servico">
+            <img src="https://culinariadesucesso.com/wp-content/uploads/2024/05/bolo-decorado-rosa-simples-redondo25.jpg" alt="Bolo de Chocolate">
+            <h3>Bolos de Chocolate</h3>
+            <p>Recheio cremoso e cobertura irresistível.</p>
+        </article>
+        <article class="servico">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxL3bMbXj6MhiSxcRbu_Ld2VqcP7GgwJnTZA&s" alt="Macarons">
+            <h3>Macarons</h3>
+            <p>Docinhos franceses crocantes e coloridos.</p>
+        </article>
+    </main>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter container">
+        <h2>Inscreva-se agora!</h2>
+        <h3>Receba receitas, dicas e muito mais</h3>
+        <form>
+            <input class="bg-white radius" type="email" name="email" placeholder="Seu email">
+            <button class="bg-white radius">Cadastrar</button>
+        </form>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>Copyright © 2024. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
